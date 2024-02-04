@@ -1,0 +1,5 @@
+#datePicker{
+    display: grid;
+    grid-template-columns: repeat(7, 14.2857143%);
+    grid-template-rows: repeat(4, 25%);
+}
