@@ -1,1 +1,6 @@
-[]
+[
+    {
+        "name": "resetPassword",
+        "private": true
+    }
+]
