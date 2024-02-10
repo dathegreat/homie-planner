@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homie Planner</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+    <script src="https://unpkg.com/realm-web/dist/bundle.iife.js"></script>
+    <script src="calendar.js"></script>
+  <body>
+    <div class="grid-container">
+      <div id="datePicker">
+        <div class="month">February</div>
+          <ul class="weekdays">
+              <li style="grid-column-start: 1;">Sun</li>
+              <li style="grid-column-start: 2;">Mon</li>
+              <li style="grid-column-start: 3;">Tue</li>
+              <li style="grid-column-start: 4;">Wed</li>
+              <li style="grid-column-start: 5;">Thu</li>
+              <li style="grid-column-start: 6;">Fri</li>
+              <li style="grid-column-start: 7;">Sat</li>
+          </ul>
+          <ul class="days" id="days"></ul>
+      </div>
+    </div>
+    <input type="submit" onclick="onDaysSubmit()">
+  </body>
+</html>

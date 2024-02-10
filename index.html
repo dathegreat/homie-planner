@@ -7,24 +7,16 @@
     <title>Homie Planner</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <script src="main.js"></script>
+  <script src="https://unpkg.com/realm-web/dist/bundle.iife.js"></script>
+  <script src="index.js"></script>
   <body>
-    <div class="grid-container">
-      <div id="datePicker">
-        <div class="month">February</div>
-          <ul class="weekdays">
-              <li style="grid-column-start: 1;">Sun</li>
-              <li style="grid-column-start: 2;">Mon</li>
-              <li style="grid-column-start: 3;">Tue</li>
-              <li style="grid-column-start: 4;">Wed</li>
-              <li style="grid-column-start: 5;">Thu</li>
-              <li style="grid-column-start: 6;">Fri</li>
-              <li style="grid-column-start: 7;">Sat</li>
-          </ul>
-          <ul class="days" id="days">
-
-          </ul>
-      </div>
-    </div>
+    <h1>LOGIN</h1>
+    <p>Email: </p>
+    <input type="email" id="email">
+    <p>Password: </p>
+    <input type="password" id="password">
+    <input type="submit" onclick="validateCredentials()">
+    <a href="/create-account.html">Create New Account</a>
+    
   </body>
 </html>
