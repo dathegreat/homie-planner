@@ -1,0 +1,22 @@
+{
+    "database": "HomiePlanner",
+    "collection": "BusyDays",
+    "roles": [
+        {
+            "name": "homie",
+            "apply_when": {
+                "%%user.data.email": {
+                    "%exists": true
+                }
+            },
+            "document_filters": {
+                "read": {},
+                "write": {}
+            },
+            "insert": true,
+            "delete": true,
+            "read": true,
+            "write": true
+        }
+    ]
+}
